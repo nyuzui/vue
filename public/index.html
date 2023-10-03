@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="button-container">
+        <button class="toggle-button">Toggle</button>
+        <button class="duplicate-button">Duplicate</button>
+        <button class="delete-button">Delete</button>
+        <button class="details-button">Details</button>
+        <button class="rename-button">Rename</button>
+    </div>
+
+    <div class="card">
+        <h2 class="card-header">Barbie</h2>
+        <div class="card-content">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRiaMsHYpdf80moiUHsYEMWN_RR2O0jagD3Nu73-5VBYYrm3uCN" alt="Card Image" alt="Card Image" class="card-image">
+            <p class="card-text">Cool movie!</p>
+            <div class="hidden-textbox">
+                <p>Hidden Textbox Content</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>

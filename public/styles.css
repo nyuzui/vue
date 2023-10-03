@@ -1,0 +1,56 @@
+/* Styles for the button container */
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Styles for the card container */
+.card {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for the card header */
+.card-header {
+    font-size: 24px;
+    color: black;
+}
+
+/* Styles for the card image */
+.card-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles for the card text */
+.card-text {
+    font-size: 16px;
+}
+
+/* Styles for the hidden textbox */
+.hidden-textbox {
+    display: none;
+}
+
+/* Button styles (customize as needed) */
+button {
+    background-color: #e0218a;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}x
+
+button:hover {
+    background-color: #0056b3;
+}
